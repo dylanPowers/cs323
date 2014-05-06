@@ -1,0 +1,20 @@
+name: rawrss
+version: 0.1.0
+description: A mapping RSS/ATOM reader built in Dart as a Chrome app
+dependencies:
+  browser: any
+  collection: any
+  csv_sheet: <0.1.0
+  google_maps: any
+  grinder: any
+  html5_dnd:
+    git: https://github.com/marcojakob/dart-html5-dnd.git
+  js: any
+  polymer: <0.10.0
+  rss: any
+  webview: any
+  xml: <2.0.0
+transformers:
+- polymer:
+    entry_points: web/map_rss.html
+    csp: 'true'
